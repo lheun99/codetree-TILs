@@ -2,4 +2,4 @@ n = int(input())
 
 if n < 5:
     print("tiny")
-print(pow(n, 2))
+print(n**2)

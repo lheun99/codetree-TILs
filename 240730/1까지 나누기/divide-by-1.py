@@ -1,5 +1,5 @@
 a = int(input())
-i = 1
+i = 0
 while a % i <= 1:
     a //= i 
     i += 1

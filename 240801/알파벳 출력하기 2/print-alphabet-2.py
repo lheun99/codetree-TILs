@@ -8,7 +8,7 @@ for i in range(n):
         print(chr(num), end = " ")
         #print(chr(num), end = " ")
 
-        if num == 26:
+        if num == 90:
             num = ord('A')
         else:
             num += 1

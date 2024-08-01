@@ -7,6 +7,11 @@ for i in range(n):
     for j in range(n, 0, -1):
         print(chr(num), end = " ")
         #print(chr(num), end = " ")
-        num += 1
-    n -= 1
+
+        if num == 26:
+            num = ord('A')
+        else:
+            num += 1
+
     print()
+    n -= 1

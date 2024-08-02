@@ -6,7 +6,7 @@ for i in range(b):
 
     arr[n-1][m-1] = n*m
 
-for i in range(n):
-    for j in range(n):
+for i in range(a):
+    for j in range(a):
         print(arr[i][j], end = " ")
     print()

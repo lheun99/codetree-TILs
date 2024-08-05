@@ -7,7 +7,6 @@ for i in range(len(a)-1):
 
     if a == b:
         print(cnt)
-    print(a)
     cnt += 1
 
 if cnt == len(a):
